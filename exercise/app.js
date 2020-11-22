@@ -17,7 +17,7 @@ app.use(function(req,res,next){
 
 
 
-mongoose.connect('mongodb+srv://huda:mH4kYYegdy5hzmE@cluster0.hm9ua.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://username:password@cluster0.hm9ua.mongodb.net/test?retryWrites=true&w=majority',{
   useNewUrlParser: true, 
   useUnifiedTopology : true,
   useCreateIndex: true
